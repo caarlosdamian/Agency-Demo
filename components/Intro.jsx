@@ -13,7 +13,7 @@ const Intro = () => {
         </h1>
         <p className={styles.description}>
           Create live segments and target the right people for messages based on
-          their behaviors.
+          teir behaviors.
         </p>
         <button className={styles.button}>DISCOVER</button>
       </div>
