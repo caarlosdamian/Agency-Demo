@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <div className={styles.container}>
       <Circle backgroundColor="#b0ff49" top="-50vh" left="-50vh" />
-      <Circle backgroundColor="#01c686" right="-40vh"  />
+      <Circle backgroundColor="#01c686" right="-40vh" />
       <div className={styles.card}>
         <h1 className={styles.title}>
           <span className={styles.brand}>AVOCADO</span>
@@ -13,9 +13,11 @@ const Intro = () => {
         </h1>
         <p className={styles.description}>
           Create live segments and target the right people for messages based on
-          teir behaviors.
+          their behaviors.
         </p>
-        <button className={styles.button}>DISCOVER</button>
+        <button className={styles.button}>
+          <p className={styles.buttonText}>DISCOVER</p>
+        </button>
       </div>
       <div className={styles.card}>
         <Image
